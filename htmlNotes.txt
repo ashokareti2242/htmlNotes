@@ -1,0 +1,270 @@
+j
+;'kt];km';r
+1)What is html?
+A)html is used for creating structure of the web page.
+
+2)what is web page?
+A)web page is a collection of elements.
+
+3)what is website?
+A)website is a collecton of web pages.
+
+4)what is html tag?
+A)there are two tags
+     1)opening tag  -->  < >
+     2)closing tag  -->  </ >
+
+5)what is html element?
+html tag are also called as html element.
+eg:<h1></h1>
+
+5)what is html content?
+ the content inside the html tag is called a html content.
+
+6)what is server?
+a) server is a software, which provides services to other computer.
+
+7)what is client?
+a)client is a user which takes other computer.
+
+                                      15/052015
+
+                           LEVEL-01
+
+HTML BASIC TAGS:
+
+1)HEADING TAGS:
+
+A)it provides headings on the browser, there are differnt kinds of heading tags
+      1) <h1> edupoly </h1>
+      2) <h2> edupoly </h2>
+      3) <h3> edupoly </h3>
+      4) <h4> edupoly </h4>
+      5) <h5> edupoly </h5>
+      6) <h6> edupoly </h6>
+the text content visible bold format on the web page and decreasing the font size  h1 less than h2, h2 less than h3, etc...(<h1> tag to <h6> decreasing the size).
+
+2)PARAGRAPH TAG
+A)1)it is not reflect extra space on the web page
+eg:  <p>
+       welcome to html page
+
+         welcome to nody poly
+        </p>
+
+3)<pre> tag:
+  A)1) it reflect on the spaces on the web page
+
+     eg:<pre>welcome to edypoly
+             welcome to webpage <pre>
+   2)In the pre tag there is a property that name is "align", and the values are LEFT, CENTER, RIGHT, JUSTIFY (iT APPLY SAME AS PARAGRAPH TAG)
+        EG:<pre align="center"'kke>nodepoly</pre>
+
+4)Html LIST:
+ 1)it provide different form of bullets
+ 2)html lists are two types
+         a)Oreder List   ---><ol>
+         b)Unoder list   ---><ul>
+   1)Order list it is represnted by using <ol> and on the browser on the form of numbers and the text which associated along with any form of bullets is 
+     referd as "lst item" --><li></li>
+     eg:  <ol>
+          <li> andhra </li>
+          <li> telangana </li>
+          <li> gujarath </li>
+          <li> tamilnadu </li>
+         </ol>
+  
+    2)unordered list it is represented by using <ul> and on the browser in the form of solid circle
+     eg:
+         <ul>
+         <li> andhra </li>
+         <li> telangana </li>
+         <li> gujarath </li>
+         <li> tamilnadu </li>
+        </ul>
+    3)AS a programmer we can change bullets or remove them by using css properties called it as list-style-type
+ 
+         a)for order list programmer can pass values as
+               a)decimal
+               b)upper-alpha
+               c)lower-alpha
+               d)upper-roman
+               e)lower-roman
+ 
+         b)for unorder list programmer can pass value as
+               a)disc
+                b)circle
+                c)square
+         4)To remove bullets from <ul> and <ol> programmer can pass "none"
+                eg:<uL>
+                       <li> first item <li>
+                       <li> second item <li>
+                  </ul>
+    
+5)ATTRIBUTES:
+ 1)Attributes are the properties of html tags/element
+ 2)these are used to provide more information related to html elements for browser
+ 3)Always specify attributes only in opening html tag
+   synatax: <tagname attribute="value" ></tag name>
+      eg: src, type 
+
+6)ANCHOR TAG:
+
+  a)anchor tag is uesd to link one html file with another html file
+  b)it takes who impotant attributes are
+             1)href
+             2)target
+  c)to create the hyperlinks in html programmers can use in 3 ways
+      1)text content
+      2)buttons
+      3)images
+  eg: <a href=first.html> edupoly </a>  
+   1)"blank" is used to open every hyperlink in same new tab.   ---> <a href="first.html" target="blank"> new user? </a>
+   2)"_blank" is used to open every hyperlik in every new tab   ---> <a href="first.html" target="_blank"> new user? </a> 
+   
+ a)<a href="https://www.google.com">  --->this is absolute links
+ b)<a href="./first.html">     ----> this is Relative links
+
+7)BREAK TAG:
+A)Break tag is used to shift to next line
+ eg: <br></br>
+
+8)MULTIMEDIA TAGS :
+  1)programer prefer multimedia tags in order to provide advertisement on the browser.
+  2)There are three multymedia tags are as follows
+       a)image
+       b)video
+       c)audio
+  a)<img> is used to provide image on the browser. It take four attrubutes are as follows
+     1)src: it stands  for source attribute which is basically used to provide image file name/ path
+     2)width & height  to control the dimention of an image 
+     3)alt -> it stands for "alternate text" used to specify some kind of message if given file name doenot exist
+
+           eg: 1)<img src="ashok.jpg" width="100" height="200" alt="not found"></img>
+               2)<audio src="sardhar.MP3 controls></audio>
+               3)video src="anthemvideo.MP4 height="200" width="200" controls></video>
+     4)it is possible sigel code ' ' and doubel code " " in the href values
+
+9)TEXT FORMATING TAGS:
+ 1)<i> twinkel </i> --> the text content represent italic form on the web page
+ 2)<u> underline </u> --> the text content represent underline on the web page
+ 3)<b> bold format </b> --> the text content represent bold format on the web page
+ 4)<strike></strike>  --> the text content represent strike on the line
+
+10)singel line comment:
+  eg:<!-- sigel line comment -->
+
+11)HTML  is a case sensitive or non case sensitive?
+A) html is a non case sensitive because we can write capital letter either small letter.
+
+12)BLOCK QUOTES:
+ A)it represent move the spaces on th left side of pargraphs
+   eg:<blockquote> welcome to html </blockquote>
+
+13)Quotations:
+A) it represent quatations on the text content
+  eg:<q> web page </q>
+
+14)Nav Tag:
+A)  <nav>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/services">Services</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+</nav>
+
+                                                         16/05/2025
+1)HTML ELEMENTS:
+A) Html elements are two types
+       1)block element  --> a)block element occupy entire  width space
+                            b)it always start on new line
+          eg:<p>, <h1>, <div>
+       2)inline element  -->only take up the width they need and do not start a new line
+           eg :<a>,<img>, <span>
+2)DIV AND SPAN tags:
+   1) div--> div is container or section. It used to group of elements
+       eg: <div> 
+           group of elementsuiys
+           </div>
+    2)span --->span is a inline element do not start with next line and only take up width they need
+
+3)SUPERSCRIPT AND SBSCRIPT TAGS:
+  1)superscript and scbscript mainly we can use mathematical and chemical formulas
+  2)superscript write in <sup> and subscript write in <sub>
+  3)eg: <h1>a<sup>2</sup><h1>
+        <h2>caco<sub>3</sub><h2>
+
+4)Semantic and Non-Semantic Tags:
+  1)semantic tags clearly describe the meaning and purpose of html elements
+   
+    eg:<header></header>
+       <nav></nav>
+       <footer></footer>
+    2)non-semantic tag like div and span , this div and span used for layout and styling and dont offer any information
+        eg: <div></div>
+            <span></span>
+5)HTML ENTITY:
+  1)WE Can't write special characters directly inside html tags
+  2)so we use some codes
+      &lt;
+      &gt;
+      &hearts;
+ eg:<h2>a &lt; b/h2>
+   3)not only special characters but also we represent symbols
+       eg:
+          <header>i &hearts; edupoly</header>
+6)datalist
+  <dl>
+<dt>html<dt>
+<dd>hyper text markup language<dd>
+</dl>
+
+6)HTML CURRENT VERSION AND FOUNDER:
+A)html current version is HTML5 ,the founder OF TIM BERNERS-LEE AT 1991
+  2)HTML5 RELESED AT 2014
+
+                                                                  19/05/2025
+
+1)tables:
+eg:<table border="2">
+        <tr>
+            <td>column1</td>
+            <td>column2</td>
+            <td>column3</td>
+        </tr>
+        <tr>
+            <td rowspan="2">row 1 cell1</td>
+            <td> row1 cell2</td>
+            <td>row1 cell3</td>
+        </tr>
+        <tr>
+            <td>row2 cell2</td>
+            <td>row2 cell3</td>
+        </tr>
+        <tr>
+            <td colspan="3">row3 cell1</td>
+        </tr>
+    </table>
+2)forms tag:
+     1)label tag
+     2)input tag
+A)1)To collect user data is called forms
+  <input />---->self closing data
+  2)by default input box is text
+  eg:
+     <form action="https://www.google.com">
+        <label for="id">full name</label>
+        <input  id="id1" type="text" name="fullname" placeholder="enter full name">
+        <button>submit</button>
+    </form>
+     
+  
+ 
+
+    
+   
+  
+   
+   
